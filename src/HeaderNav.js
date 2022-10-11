@@ -5,7 +5,7 @@ function anchorClick(i,arr)
 {
     const [j,seti,name] = arr;
 
-    if(j==false)
+    if(j===false)
      document.getElementById("p-tag").innerHTML= `In page ${name}`;
 
     seti(!j);
