@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import './HeaderNav';
 import {NavBar} from './HeaderNav';
 import './AsideContentBar';
-import {AsideContentBar} from './AsideContentBar';
 import { useState } from 'react';
 
 function App() {
