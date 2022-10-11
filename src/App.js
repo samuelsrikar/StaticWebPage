@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import './HeaderNav';
+import {NavBar} from './HeaderNav';
+import './AsideContentBar';
+import {AsideContentBar} from './AsideContentBar';
+import { useState } from 'react';
 
 function App() {
+  const [i,SetI] =useState(false);
+   
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <body>
+    <h3>Web Development and Programming Languages</h3>
+    <NavBar i={i} setI={SetI} />
+    <p id="p-tag"></p>
+    {/* <AsideContentBar ContentItems={['a','b','c']} /> */}
+  </body>
   );
 }
 
