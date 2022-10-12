@@ -10,18 +10,18 @@
 
 .a-style-content
 {
-    padding-left: 5px;
     width: 95%;
     margin-top: 10px;
     text-decoration: none;
     color: black;
+    word-wrap: break-word; 
 }
 
 
 .a-style-content:focus
 {
-    padding-left: 5px;
-    padding-right: 5px;
+    width: 95%;
+    margin-top: 10px;
     background-color: darkgray;
     color: black;
 }
