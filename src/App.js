@@ -6,7 +6,7 @@ import {AsideContentBar} from './AsideContentBar'
 
 function App() {
   const [asideName,setAsideName] = useState("HTML");
-  const [contentName,setContentName] = useState("Introduction");
+ // const [contentName,setContentName] = useState("Introduction");
 
   function setName(n)
   {

@@ -11,7 +11,7 @@ function Anchor(props) {
 }
 
 function AsideContentBar(props) {
-    const list = [];
+    //const list = [];
     // for (let iterator of props.ContentItems) {
     //     list.push(<a href="#">{iterator}</a>);
     // }

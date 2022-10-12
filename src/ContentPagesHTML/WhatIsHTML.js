@@ -1,6 +1,6 @@
-function HTML_WhatIsHTML()
-{
-    return (
-        <p>What is html?</p>
-    );
-}
+// function HTML_WhatIsHTML()
+// {
+//     return (
+//         <p>What is html?</p>
+//     );
+// }
