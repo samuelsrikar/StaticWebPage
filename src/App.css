@@ -4,7 +4,7 @@
 }
 
 body,html{
-  background-color: beige;
+  background-color: rgb(253, 253, 253);
   height: 100%;
   width: 100%;
 }
@@ -12,4 +12,19 @@ body,html{
 h3{
   background-color: darkslategrey;
   text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: lightskyblue;
+}
+
+.middle{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(253, 253, 253);
+  height: 100%;
+  width: 100%;
+}
+
+.middle p {
+  margin: 15px;
 }

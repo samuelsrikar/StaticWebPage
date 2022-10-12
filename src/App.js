@@ -1,18 +1,28 @@
 import './App.css';
 import './HeaderNav';
 import {NavBar} from './HeaderNav';
-import './AsideContentBar';
 import { useState } from 'react';
+import {AsideContentBar} from './AsideContentBar'
 
 function App() {
-  const [i,SetI] =useState(false);
-   
+  const [asideName,setAsideName] = useState("HTML");
+  const [contentName,setContentName] = useState("Introduction");
+
+  function setName(n)
+  {
+    setAsideName(n);
+    console.log(asideName);
+
+  }
+
   return (
   <body>
     <h3>Web Development and Programming Languages</h3>
-    <NavBar i={i} setI={SetI} />
-    <p id="p-tag"></p>
-    {/* <AsideContentBar ContentItems={['a','b','c']} /> */}
+    <NavBar setAsideName={setName}/>
+    <div className="middle" >
+      <AsideContentBar asideName={asideName} />
+      <p>Coming Soon .....!</p>
+    </div>
   </body>
   );
 }

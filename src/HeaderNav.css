@@ -7,7 +7,10 @@
     height: 7%;
 }
 
-.header-nav-a{
+
+
+.a-style
+{
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -15,8 +18,18 @@
     align-items: center;
     justify-content: center;
     width: 25%;
+    background-color: rgb(66, 62, 62);
+    color: azure;
 }
 
-a:hover{
-    background-color: red;
+.a-style:hover
+{
+    background-color: gray;
+    color: azure;
+}
+
+.a-style:focus
+{
+    background-color: gray;
+    color: azure;
 }
